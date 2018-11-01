@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mvn -Dvault.useProxy=false -DskipTests -e -U -P autoInstallPackage clean install "$@"
